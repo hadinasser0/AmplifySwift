@@ -1,0 +1,6 @@
+import AWSAppSync
+
+class ClientFactory {
+
+
+}

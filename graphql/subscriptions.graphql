@@ -1,0 +1,41 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateMyModelType(
+  $description: String
+  $id: ID
+  $title: String
+) {
+  onCreateMyModelType(description: $description, id: $id, title: $title) {
+    description
+    id
+    title
+  }
+}
+subscription OnCreateMyModelTypeV2 {
+  onCreateMyModelTypeV2 {
+    description
+    id
+    title
+  }
+}
+subscription OnDeleteMyModelType(
+  $description: String
+  $id: ID
+  $title: String
+) {
+  onDeleteMyModelType(description: $description, id: $id, title: $title) {
+    description
+    id
+    title
+  }
+}
+subscription OnUpdateMyModelType(
+  $description: String
+  $id: ID
+  $title: String
+) {
+  onUpdateMyModelType(description: $description, id: $id, title: $title) {
+    description
+    id
+    title
+  }
+}
